@@ -1,16 +1,14 @@
 package HW1PrimitivesAndReferenceDataTypes;
 
-import java.util.Arrays;
-
 public class HW1 {
     public static void main(String[] args) {
         //Створити по 1 екземпляру кожного примітивного типу
-        byte byteVariable = 127;
-        short shortVariable = 32767;
+        byte byteVariable = 10;
+        short shortVariable = 20;
         char charVariable = '1';
-        int intVariable = 2147483647;
-        long longVariable = 9223372036854775807L;
-        double doubleVariable = 10.56;
+        int intVariable = 30;
+        long longVariable = 40L;
+        double doubleVariable = 3.14159;
         float floatVariable = 3.14f;
         boolean booleanVariable = true;
 
@@ -24,17 +22,26 @@ public class HW1 {
         String stringSecond = new String("String second method");
 
         //Написати по 2 арифметичні операції з кожною змінною та вивести результат
-        System.out.println(byteVariable+shortVariable);
-        System.out.println(byteVariable-shortVariable);
+        System.out.println("Byte + 5 = " + (byteVariable + 5));
+        System.out.println("Byte - 5 = " + (byteVariable - 5));
 
-        System.out.println(charVariable+intVariable);
-        System.out.println(charVariable-intVariable);
+        System.out.println("Short * 2 = " + (shortVariable * 2));
+        System.out.println("Short / 2 = " + (shortVariable / 2));
 
-        System.out.println(floatVariable+doubleVariable);
-        System.out.println(floatVariable-doubleVariable);
+        System.out.println("Int + 10 = " + (intVariable + 10));
+        System.out.println("Int - 10 = " + (intVariable - 10));
 
-        System.out.println(longVariable+intVariable);
-        System.out.println(longVariable-intVariable);
+        System.out.println("Long * 2 = " + (longVariable * 2));
+        System.out.println("Long / 2 = " + (longVariable / 2));
+
+        System.out.println("Float + 1.0 = " + (floatVariable + 1.0f));
+        System.out.println("Float - 1.0 = " + (floatVariable - 1.0f));
+
+        System.out.println("Double * 2 = " + (doubleVariable * 2));
+        System.out.println("Double / 2 = " + (doubleVariable / 2));
+
+        System.out.println("Char + 1 = " + (charVariable + 1));
+        System.out.println("Char - 1 = " + (charVariable - 1));
 
         System.out.println("---------------------------------------------------------------");
         //Написати по 2 реляцонні та логічні операції кожного типу та вивести результат, написати 2 тернарні операції та вивести результат
