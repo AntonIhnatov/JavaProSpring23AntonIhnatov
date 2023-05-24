@@ -1,4 +1,4 @@
-package HW1PrimitivesAndReferenceDataTypes;
+package main.java.HW1PrimitivesAndReferenceDataTypes;
 
 public class HW1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package HW2EncapsulationOOP.example;
+package main.java.HW2EncapsulationOOP;
 
 public class Car {
     public void start() {

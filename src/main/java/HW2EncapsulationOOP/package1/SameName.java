@@ -1,4 +1,4 @@
-package HW2EncapsulationOOP.example.package1;
+package main.java.HW2EncapsulationOOP.package1;
 
 public class SameName {
     public SameName() {

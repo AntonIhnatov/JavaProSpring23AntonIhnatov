@@ -1,4 +1,4 @@
-package HW2EncapsulationOOP.example;
+package main.java.HW2EncapsulationOOP;
 
 public class Employee {
     //клас "Співробітник" з полями: ім'я, прізвище, по-батькові, посада, email, телефон, вік, заробітня платня
@@ -45,6 +45,43 @@ public class Employee {
         System.out.println("firstName: " + firstName + ", secondName: " + secondName + ", fatherName: " + fatherName + ", position: " + position + ", email: " + email + ", phone: " + phone + ", age: " + age + ", salary: " + salary);
     }
 
+    public Employee(String firstName, String secondName, String fatherName, String position, double salary) {
+        this.firstName = firstName;
+        this.secondName = secondName;
+        this.fatherName = fatherName;
+        this.position = position;
+        this.salary = salary;
+    }
 
+    public String getFirstName() {
+        return firstName;
+    }
 
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public String getFatherName() {
+        return fatherName;
+    }
+
+    public String getPosition() {
+        return position;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
 }
