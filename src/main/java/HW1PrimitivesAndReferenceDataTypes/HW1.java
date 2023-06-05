@@ -3,11 +3,11 @@ package main.java.HW1PrimitivesAndReferenceDataTypes;
 public class HW1 {
     public static void main(String[] args) {
         //Створити по 1 екземпляру кожного примітивного типу
-        byte byteVariable = 10;
-        short shortVariable = 20;
+        byte byteVariable = 1000;
+        short shortVariable = 20000;
         char charVariable = '1';
-        int intVariable = 30;
-        long longVariable = 40L;
+        int intVariable = 300000;
+        long longVariable = 4000L;
         double doubleVariable = 3.14159;
         float floatVariable = 3.14f;
         boolean booleanVariable = true;
