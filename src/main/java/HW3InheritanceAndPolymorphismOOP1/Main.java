@@ -61,5 +61,16 @@ public class Main {
         game.reviewOnSteam();
         game.shareResultOnFacebook();
         game.shareResultOnYouTube();
+
+        System.out.println("---------------------------------------------------------------------------------------------");
+
+        Vehicle vehicle1 = new ElectricEngineCar("Tesla", 2019);
+        vehicle1.checkBrakeSystem();
+        vehicle1.checkCarEngine();
+        vehicle1.checkCoolingSystem();
+        vehicle1.checkOilFilter();
+        vehicle1.tireReplacement();
+        vehicle1.changeOfOil();
+
     }
 }
