@@ -72,5 +72,16 @@ public class Main {
         vehicle1.tireReplacement();
         vehicle1.changeOfOil();
 
+
+        System.out.println("---------------------------------------------------------------------------------------------");
+
+        Game game1 = new GameRPG("Fallout 1", 1997 );
+        game1.downloadGame();
+        game1.reviewOnEpicGames();
+        game1.reviewOnSteam();
+        game1.shareResultOnFacebook();
+        game1.shareResultOnYouTube();
+
+
     }
 }
