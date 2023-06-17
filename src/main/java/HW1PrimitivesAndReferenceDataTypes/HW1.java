@@ -3,8 +3,8 @@ package main.java.HW1PrimitivesAndReferenceDataTypes;
 public class HW1 {
     public static void main(String[] args) {
         //Створити по 1 екземпляру кожного примітивного типу
-        byte byteVariable = 1032423432477777777;
-        short shortVariable = 2034234324324;
+        byte byteVariable = 127;
+        short shortVariable = 32767;
         char charVariable = '1';
         int intVariable = 30;
         long longVariable = 40L;

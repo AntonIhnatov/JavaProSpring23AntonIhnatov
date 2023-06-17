@@ -1,6 +1,7 @@
 package main.java.HW6SymbolsAndStrings;
 
 import java.util.Scanner;
+
 import static main.java.HW6SymbolsAndStrings.IsSentencePalindrome.IsSentencePalindrome;
 
 public class Main {

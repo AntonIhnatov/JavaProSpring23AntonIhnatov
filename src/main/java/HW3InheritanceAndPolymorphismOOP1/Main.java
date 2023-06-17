@@ -1,7 +1,13 @@
 package main.java.HW3InheritanceAndPolymorphismOOP1;
 
-import main.java.HW3InheritanceAndPolymorphismOOP1.Game.*;
-import main.java.HW3InheritanceAndPolymorphismOOP1.Vehicle.*;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Game.FightingGame;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Game.Game;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Game.GameRPG;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Game.StrategyGame;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Vehicle.DieselEngineCar;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Vehicle.ElectricEngineCar;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Vehicle.PetrolEngineCar;
+import main.java.HW3InheritanceAndPolymorphismOOP1.Vehicle.Vehicle;
 
 public class Main {
     public static void main(String[] args) {
@@ -56,7 +62,7 @@ public class Main {
 
         System.out.println("---------------------------------------------------------------------------------------------");
 
-        Game game = new GameRPG("Fallout 4", 2015 );
+        Game game = new GameRPG("Fallout 4", 2015);
         game.reviewOnEpicGames();
         game.reviewOnSteam();
         game.shareResultOnFacebook();
@@ -75,7 +81,7 @@ public class Main {
 
         System.out.println("---------------------------------------------------------------------------------------------");
 
-        Game game1 = new GameRPG("Fallout 1", 1997 );
+        Game game1 = new GameRPG("Fallout 1", 1997);
         game1.downloadGame();
         game1.reviewOnEpicGames();
         game1.reviewOnSteam();
