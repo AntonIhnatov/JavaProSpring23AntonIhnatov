@@ -1,4 +1,4 @@
-package main.java.HW10Collections;
+package main.java.HW9Collections;
 
 import java.util.HashMap;
 import java.util.Map;
